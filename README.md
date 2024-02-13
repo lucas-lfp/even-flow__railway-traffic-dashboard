@@ -1,31 +1,28 @@
-<h1>Overview</h1>
-This project aims at creating a dashboard about railway passenger's traffic in Versailles, France (Versailles Chantiers, Versailles Château Rive Gauche, Versailles Rive Droite, Montreuil and Porchefontaine).
-Data regarding all five train stations, from 2015 to 2023, were gathered from <a href = "https://data.iledefrance-mobilites.fr/pages/home/" target="_blank">Île de France Mobilités</a>, <a href = "https://ressources.data.sncf.com/pages/accueil/" target="_blank">SNCF</a> and <a href = "https://data.ratp.fr/explore/?sort=modified" target="_blank">RATP</a> open data platforms.
+# Railway Passenger Traffic Dashboard for Versailles, France
 
-<h1>Dashboard objectives</h1>
-<ul>
-  <li>Provide a general overview of the traffic, per year and per station</li>
-  <li>Assess commute pattern in each station</li>
-  <li>Evaluate the impact of Covid-19 outbreak on traffic (2020 to 1st semester of 2023)</li>
-</ul>
+This project aims to analyze and visualize railway passenger traffic data for Versailles, France, focusing on the five train stations: Versailles Chantiers, Versailles Château Rive Gauche, Versailles Rive Droite, Montreuil, and Porchefontaine. Data spanning from 2015 to 2023 were collected from open data platforms such as [Île de France Mobilités](https://data.iledefrance-mobilites.fr/pages/home/), [SNCF](https://ressources.data.sncf.com/pages/accueil/), and [RATP](https://data.ratp.fr/explore/?sort=modified).
 
-<h1>Skills used in this project</h1>
-<ul>
-  <li>Data wrangling and preprocessing was performed using <b>Python</b> in a Jupyter Notebook environment</li>
-  <li>Dashboard was created using <b>Power BI Desktop</b></li>
-</ul>
+## Dashboard Objectives
 
-<h1>Major findings</h1>
-<ul>
-  <li>For the past 8 years, Versailles Chantiers stands among Île de France's top most frequented train stations, along with La Défense, Saint-Denis and Juvisy.</li>
-  <li>Different commute patterns exist in Versailles: Versailles Rive Droite, Montreuil and Porchefontaine show a strong morning commute while Versailles Chantiers shows an evening commute, suggesting most people arrive by this station to work/study in Versailles. Commute in Versailles Château Rive Gauche is balanced, which was expected as it is the closest station to Versailles' Palace.</li>
-  <li>Traffic was halved right after Covid-19 outbreak, then steadily rised up again every year. As of first semester of 2023, every station in Versailles has a traffic equivalent to 2019 (±5%).</li>
-  <li>Navigo Pass remain the most common type of pass and is used by 65% of travelers. However, since Covid-19 outbreak, Imagine-R pass users number grows faster.</li>
-</ul>
+- Provide a comprehensive overview of passenger traffic, both yearly and per station.
+- Analyze commute patterns at each station.
+- Evaluate the impact of the Covid-19 outbreak on traffic from 2020 to the first semester of 2023.
 
-<h1>Other findings of interest</h1>
-<ul>
-  <li>In 2022, a total of 8.8M of passenger was registered over all 5 train stations; Q1 & Q2 2023 show a +5.7% growth</li>
-  <li>Versailles Chantiers is the most crowded station, with an average of 13.1k per day, followed by Versailles Rive Droite (4.2k) and Versailles Château Rive Gauche (3.2k). As a comparison, the daily average in all Île-de-France's train station is 4.4k passengers.</li>
-  <li>An average loss of 60% of traffic is observed during weekends. This loss is limited to 37% in Versailles Château Rive Gauche, and goes up to 70% in Versailles Chantiers.</li>
-</ul>
+## Skills Used in This Project
+
+- Data wrangling and preprocessing performed using **Python** in a Jupyter Notebook environment.
+- Dashboard creation using **Power BI Desktop**.
+
+## Major Findings
+
+- Versailles Chantiers has consistently been among Île de France's top most frequented train stations over the past 8 years.
+- Different commute patterns exist in Versailles, with strong morning commute observed at Versailles Rive Droite, Montreuil, and Porchefontaine, while Versailles Chantiers experiences an evening commute, suggesting most people arrive at this station to work/study in Versailles. Versailles Château Rive Gauche exhibits a balanced commute, as expected due to its proximity to Versailles' Palace.
+- Traffic was halved immediately after the Covid-19 outbreak but has been steadily recovering. By the first semester of 2023, every station in Versailles has traffic levels equivalent to 2019 (±5%).
+- While Navigo Pass remains the most common type of pass, usage of Imagine-R passes has been growing faster since the Covid-19 outbreak.
+
+## Other Findings of Interest
+
+- In 2022, a total of 8.8 million passengers were registered across all five train stations, with a 5.7% growth in Q1 & Q2 2023.
+- Versailles Chantiers is the busiest station, with an average of 13.1k passengers per day, followed by Versailles Rive Droite (4.2k) and Versailles Château Rive Gauche (3.2k). For comparison, the daily average in all Île-de-France's train stations is 4.4k passengers.
+- A significant decrease in traffic (averaging 60%) is observed during weekends, with Versailles Château Rive Gauche experiencing a relatively smaller decline (37%) compared to other stations.
+
