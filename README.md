@@ -1,6 +1,6 @@
 <h1>Overview</h1>
 This project aims at creating a dashboard about railway passenger's traffic in Versailles, France (Versailles Chantiers, Versailles Château Rive Gauche, Versailles Rive Droite, Montreuil and Porchefontaine).
-Data regarding all five train stations, from 2015 to 2023, were gathered from <a href = "https://data.iledefrance-mobilites.fr/pages/home/" target = "_blank">Île de France Mobilités</a>, <a href = "https://ressources.data.sncf.com/pages/accueil/" target ="_blank">SNCF</a> and <a href = "https://data.ratp.fr/explore/?sort=modified" target = "_blank">RATP</a> open data platforms.
+Data regarding all five train stations, from 2015 to 2023, were gathered from <a href = "https://data.iledefrance-mobilites.fr/pages/home/" target="_blank">Île de France Mobilités</a>, <a href = "https://ressources.data.sncf.com/pages/accueil/" target="_blank">SNCF</a> and <a href = "https://data.ratp.fr/explore/?sort=modified" target="_blank">RATP</a> open data platforms.
 
 <h1>Dashboard objectives</h1>
 <ul>
